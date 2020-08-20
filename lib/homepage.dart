@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
 import 'clock_view.dart';
 import 'main.dart';
+import 'Page_2.dart';
 
 class HomePage extends StatefulWidget {
   @override

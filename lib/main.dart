@@ -1,5 +1,7 @@
+import 'dart:async';
 import 'package:flutter/material.dart';
 import 'homepage.dart';
+import 'Page_2.dart';
 
 void main() {
   runApp(MyApp());
@@ -19,36 +21,3 @@ class MyApp extends StatelessWidget {
   }
 }
 
-class Page1 extends StatelessWidget{
-  @override
-  Widget build(BuildContext context){
-    return Scaffold(
-      appBar: AppBar(title: Text('page 1')),
-      body: Center(
-          child: RaisedButton(
-            onPressed: () {
-              Navigator.of(context)
-                  .pop();
-            },
-            child: Text('Open page 2'),
-          )),
-    );
-  }
-}
-
-class Page2 extends StatelessWidget{
-  @override
-  Widget build(BuildContext context){
-    return Scaffold(
-      appBar: AppBar(title: Text('page 2')),
-      body: Center(
-          child: RaisedButton(
-            onPressed: () {
-              Navigator.of(context)
-                  .pop();
-            },
-            child: Text('Open page 1'),
-          )),
-    );
-  }
-}
