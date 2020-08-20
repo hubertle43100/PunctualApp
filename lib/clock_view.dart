@@ -44,10 +44,10 @@ class _ClockViewState extends State<ClockView> {
     var radius = min(centerX, centerY);
 
     var fillBrush = Paint()
-    ..color = Color(0xFF444974);
+    ..color = Colors.pinkAccent[100];
 
     var dashBrush = Paint()
-    ..color = Color(0xFFEAECFF)
+    ..color = Colors.green[900]
       ..style = PaintingStyle.stroke
       ..strokeWidth = 4;
 
@@ -62,20 +62,20 @@ class _ClockViewState extends State<ClockView> {
 
 
     var secHandBrush = Paint()
-      ..color = Colors.orange[300]
+      ..color = Colors.lightGreen[200]
       ..strokeCap = StrokeCap.round
       ..style = PaintingStyle.stroke
       ..strokeWidth = 8;
 
     var minHandBrush = Paint()
-      ..shader = RadialGradient(colors: [Color(0xFF748EF6),Color(0xFF77DDFF)])
+      ..shader = RadialGradient(colors: [Colors.green,Colors.green[600]])
           .createShader(Rect.fromCircle(center: center, radius: radius))
       ..style = PaintingStyle.stroke
       ..strokeCap = StrokeCap.round
       ..strokeWidth = 16;
 
     var hourHandBrush = Paint()
-      ..shader = RadialGradient(colors: [Color(0xFFEA74AB),Color(0xFFC279FB)])
+      ..shader = RadialGradient(colors: [Colors.grey[700] ,Colors.grey[800]])
           .createShader(Rect.fromCircle(center: center, radius: radius))
       ..style = PaintingStyle.stroke
       ..strokeCap = StrokeCap.round
