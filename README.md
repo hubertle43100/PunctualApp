@@ -1,16 +1,5 @@
-# punctual
+# Punctual App
 
-A new Flutter application.
+This application was inspired by my favorite current game, "Among Us". In the community, people like to sterotype the colors with all types of personality. I throw all these color characters and their sterotypes in one app. There
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Images
